@@ -19,7 +19,7 @@ const AudioCard = ({ audio, onPlay }) => {
           className="play-button"
           onClick={(e) => {
             e.stopPropagation();
-            onPlay(audio); // onPlay agora pode receber o objeto áudio diretamente
+            onPlay(audio); 
           }}
         >
           <FaPlay className="play-icon" /> Ouvir

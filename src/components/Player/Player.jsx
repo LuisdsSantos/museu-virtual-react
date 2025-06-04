@@ -26,14 +26,6 @@ const Player = forwardRef(({
     }
   }, [isPlaying, currentAudio, ref]);
 
-  // Formato de tempo já está no Home.jsx, mas deixei aqui caso queira usar diretamente
-  // const formatTime = (seconds) => {
-  //   if (isNaN(seconds) || seconds < 0) return '0:00';
-  //   const min = Math.floor(seconds / 60);
-  //   const sec = Math.floor(seconds % 60);
-  //   return `${min}:${sec < 10 ? '0' + sec : sec}`;
-  // };
-
   return (
     <div className={`player-container ${currentAudio ? 'active' : ''}`}>
       <audio

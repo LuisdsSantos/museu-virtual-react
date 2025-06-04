@@ -7,8 +7,7 @@ import AudioCard from '../components/AudioCard/AudioCard';
 import VideoCard from '../components/VideoCard/VideoCard';
 import Player from '../components/Player/Player';
 import Modal from '../components/Modal/Modal';
-import VideoModal from '../components/VideoModal/VideoModal'; // Importar o novo componente
-
+import VideoModal from '../components/VideoModal/VideoModal'; 
 const Home = () => {
   const [currentAudio, setCurrentAudio] = useState(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,10 +18,10 @@ const Home = () => {
   const [currentTime, setCurrentTime] = useState('0:00');
   const [duration, setDuration] = useState('0:00');
 
-  const [selectedVideo, setSelectedVideo] = useState(null); // Novo estado para o vídeo
-  const [showVideoModal, setShowVideoModal] = useState(false); // Novo estado para o modal de vídeo
+  const [selectedVideo, setSelectedVideo] = useState(null); 
+  const [showVideoModal, setShowVideoModal] = useState(false); 
 
-  const audioPlayerRef = useRef(null); // Ref para o elemento de áudio no Player
+  const audioPlayerRef = useRef(null); 
 
   const openArtModal = (art) => {
     setSelectedArt(art);

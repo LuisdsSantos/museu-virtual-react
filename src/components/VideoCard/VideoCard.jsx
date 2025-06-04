@@ -4,7 +4,7 @@ import './VideoCard.css';
 
 const VideoCard = ({ video, onClick }) => {
   return (
-    <div className="video-card" onClick={() => onClick(video)}> {/* Passar o objeto video completo */}
+    <div className="video-card" onClick={() => onClick(video)}> 
       <div className="video-thumbnail">
         <img src={video.thumbnail} alt={video.title} />
         <div className="play-overlay">

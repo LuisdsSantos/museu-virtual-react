@@ -3,18 +3,16 @@ import { FaTimes, FaHeadphones, FaPlay } from 'react-icons/fa';
 import './Modal.css';
 
 const Modal = ({ art, onClose, onPlayAudio }) => {
-  // A descrição de áudio relacionada pode ser estática ou buscada dinamicamente
-  // Neste exemplo, mantive uma descrição estática para simplificar,
-  // mas o Home.jsx já busca o áudio real pelo título.
+ 
   const relatedAudioInfo = {
     title: `Descrição da Obra: ${art.title}`,
     artist: `Curadoria ArteVision`,
-    duration: "Variável" // A duração real virá do áudio se for tocado
+    duration: "Variável" 
   };
 
   return (
-    <div className="modal-overlay" onClick={onClose}> {/* Fechar ao clicar no overlay */}
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}> {/* Impedir propagação para não fechar */}
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <div className="modal-header">
           <h3>Detalhes da Obra</h3>
           <button className="close-modal" onClick={onClose}>
@@ -52,7 +50,7 @@ const Modal = ({ art, onClose, onPlayAudio }) => {
           </div>
           <div className="related-audio">
             <h3><FaHeadphones /> Áudio Relacionado</h3>
-            <div className="audio-card-modal"> {/* Usar uma classe diferente para o estilo do modal */}
+            <div className="audio-card-modal">
               <div className="audio-cover-modal">
                 <FaHeadphones className="audio-icon-modal" />
               </div>
@@ -61,7 +59,7 @@ const Modal = ({ art, onClose, onPlayAudio }) => {
                 <p className="audio-artist-modal">{relatedAudioInfo.artist}</p>
                 <button 
                   className="btn play-audio-btn"
-                  onClick={onPlayAudio} // Chama a função do Home para tocar o áudio relacionado
+                  onClick={onPlayAudio} 
                 >
                   <FaPlay className="play-icon" /> Ouvir Descrição
                 </button>
