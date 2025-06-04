@@ -7,16 +7,29 @@ Este projeto é uma aplicação web interativa que simula um museu virtual, perm
 ## 🏛️ Informações do Projeto
 
 - **Instituição:** UNIT-PE - Centro Universitário Tiradentes de Pernambuco 
-- **Curso:** Ánalise e Desenvolvimento de Sistemas  
+- **Curso:** Análise e Desenvolvimento de Sistemas  
 - **Período:** 2º Período  
 - **Disciplina:** Desenvolvimento Frontend  
-- **Professor:** Diógenes Carvalho Matias  
+- **Professor:** Diógenes Carvalho Matias
 
 ---
 
 ## 🎨 Objetivo do Projeto
 
 O principal objetivo deste projeto é desenvolver uma plataforma digital que proporcione uma experiência imersiva e educativa em um ambiente de museu virtual. Através da tecnologia, busca-se democratizar o acesso à arte e à cultura, oferecendo recursos multimídia como áudios descritivos e vídeos documentais, que enriquecem a compreensão e a apreciação das obras expostas.
+
+---
+
+## 🧩 Funcionamento da Solução
+
+A aplicação apresenta uma galeria de obras de arte, composta por:
+
+- Uma imagem representativa;
+- Um botão para ouvir a descrição em áudio da obra;
+- Um player interativo com controles de reprodução;
+- Um vídeo documental relacionado com o contexto artístico.
+
+O usuário pode navegar entre as obras, controlar a reprodução dos áudios e vídeos, e vivenciar a experiência de um museu digital com recursos acessíveis e interativos.
 
 ---
 
@@ -85,8 +98,11 @@ npm run deploy
 
 ## **👥 Integrantes do Grupo**
 
-- **Luis Fernando Ferreira dos Santos** - RA: 1242303895
-- **Lucas Winicios de Oliveira** - RA:
+- **Luis Fernando Ferreira dos Santos**   - RA: 1242303895
+- **Lucas Winicios de Oliveira Cruz**     - RA: 1251307628
+- **Maria Gabriela da Silva Pereira**     - RA: 1251307040
+- **Danilo Oliveira da Silva Figueiredo** - RA: 1251306117
+
 ---
 
 ## 📄 Licença
