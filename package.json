@@ -2,7 +2,7 @@
   "name": "museu-virtual-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://LuisdsSantos.github.io/museu-virtual-react",
+  "homepage": "https://luisdssantos.github.io/museu-virtual-react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r museu-virtual-react"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
