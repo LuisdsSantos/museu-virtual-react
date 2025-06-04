@@ -1,74 +1,95 @@
-<<<<<<< HEAD
-# museu-virtual-react
-=======
-# Getting Started with Create React App
+# 🖼️ ArtVicion - Museu Virtual 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma aplicação web interativa que simula um museu virtual, permitindo aos usuários explorar obras de arte, ouvir descrições em áudio e assistir a documentários relacionados.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🏛️ Informações do Projeto
 
-### `npm start`
+- **Instituição:** UNIT-PE - Centro Universitário Tiradentes de Pernambuco 
+- **Curso:** Ánalise e Desenvolvimento de Sistemas  
+- **Período:** 2º Período  
+- **Disciplina:** Desenvolvimento Frontend  
+- **Professor:** Diógenes Carvalho Matias  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎨 Objetivo do Projeto
 
-### `npm test`
+O principal objetivo deste projeto é desenvolver uma plataforma digital que proporcione uma experiência imersiva e educativa em um ambiente de museu virtual. Através da tecnologia, busca-se democratizar o acesso à arte e à cultura, oferecendo recursos multimídia como áudios descritivos e vídeos documentais, que enriquecem a compreensão e a apreciação das obras expostas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.  
+- **HTML5:** Estrutura fundamental da aplicação web.  
+- **CSS3:** Estilização e design responsivo da interface.  
+- **JavaScript (ES6+):** Lógica de programação e interatividade.  
+- **React Icons:** Biblioteca de ícones populares para React (Font Awesome).  
+- **NPM (Node Package Manager):** Gerenciador de pacotes para dependências do projeto.  
+- **Git:** Sistema de controle de versão.  
+- **GitHub Pages:** Serviço de hospedagem de sites estáticos.  
+- **gh-pages (NPM Package):** Ferramenta para simplificar o deploy para GitHub Pages.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ▶️ Como Executar o Projeto Localmente
 
-### `npm run eject`
+Siga os passos abaixo para executar o projeto em sua máquina local:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone o repositório:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/LuisdsSantos/museu-virtual-react.git
+```
+Ou, se preferir usar SSH:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+git clone git@github.com:LuisdsSantos/museu-virtual-react.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Navegue até o diretório do projeto:**
 
-## Learn More
+```bash
+cd museu-virtual-react
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. **Navegue até o diretório do projeto:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+npm install
+```
 
-### Code Splitting
+4. **Inicie a aplicação:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Isso abrirá a aplicação em seu navegador padrão, geralmente acessível em http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
+## 📦 Como Fazer Deploy no GitHub Pages
 
-### Making a Progressive Web App
+1. No terminal, execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run deploy
+```
 
-### Advanced Configuration
+2. O site será publicado automaticamente na URL:  
+`https://[seu-usuário].github.io/museu-virtual-react/`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## **👥 Integrantes do Grupo**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Luis Fernando Ferreira dos Santos** - RA: 1242303895
+- **Lucas Winicios de Oliveira** - RA:
+---
 
-### `npm run build` fails to minify
+## 📄 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+Este projeto é de uso educacional e não possui fins comerciais.  
+Distribuído para fins acadêmicos sob os termos da instituição de ensino.
