@@ -7,7 +7,7 @@ const Hero = () => {
     <section 
       className="hero-section" 
       style={{ 
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/arte-03.png')` 
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${process.env.PUBLIC_URL}/assets/images/arte-03.png')` 
       }}
     >
       <div className="hero-content">
