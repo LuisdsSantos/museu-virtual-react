@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, forwardRef } from 'react';
+import React, { useEffect, forwardRef } from 'react';
 import { FaPlay, FaPause, FaStepBackward, FaStepForward, FaTimes, FaMusic } from 'react-icons/fa';
 import './Player.css';
 
