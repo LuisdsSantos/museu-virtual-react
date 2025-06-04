@@ -1,0 +1,88 @@
+.video-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85); /* Mais escuro para focar no vídeo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1001; /* Maior que o modal de arte */
+}
+
+.video-modal-content {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  width: 95%;
+  max-width: 1000px; /* Um pouco mais largo para vídeos */
+  max-height: 90vh;
+  overflow-y: auto;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+  animation: fadeInScale 0.3s ease-out;
+}
+
+.video-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--accent-color);
+  padding-bottom: 0.8rem;
+}
+
+.video-modal-header h3 {
+  font-size: 1.8rem;
+  color: var(--highlight-color);
+  max-width: 90%; /* Evitar que o título seja muito longo e empurre o botão de fechar */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.close-video-modal {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-video-modal:hover {
+  color: var(--highlight-color);
+}
+
+.video-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.video-player {
+  width: 100%;
+  max-height: 70vh; /* Para garantir que não fique muito alto */
+  border-radius: 8px;
+  background-color: black; /* Fundo preto para o player */
+}
+
+.video-details {
+  padding-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.video-details p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .video-modal-content {
+    width: 98%;
+    padding: 1rem;
+  }
+  .video-modal-header h3 {
+    font-size: 1.5rem;
+  }
+}   

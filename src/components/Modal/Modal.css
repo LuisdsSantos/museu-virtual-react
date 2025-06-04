@@ -1,0 +1,64 @@
+/* Estilos do Modal (já definidos em index.css, mas se quiser específicos para o modal) */
+/* Reuso de estilos de index.css ou sobrescrever aqui */
+
+/* Estilos específicos para o card de áudio dentro do modal se forem diferentes */
+.related-audio {
+  margin-top: 2rem;
+  border-top: 1px solid var(--accent-color);
+  padding-top: 1.5rem;
+}
+
+.related-audio h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--highlight-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.related-audio .audio-card-modal {
+  background-color: var(--primary-color); /* Um pouco mais escuro para destaque */
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.related-audio .audio-cover-modal {
+  width: 60px;
+  height: 60px;
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.related-audio .audio-icon-modal {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.related-audio .audio-info-modal {
+  flex-grow: 1;
+}
+
+.related-audio .audio-title-modal {
+  font-size: 1.1rem;
+  color: var(--highlight-color);
+  margin-bottom: 0.2rem;
+}
+
+.related-audio .audio-artist-modal {
+  font-size: 0.8rem;
+  color: rgba(230, 230, 230, 0.7);
+}
+
+.related-audio .play-audio-btn {
+  /* Reutiliza o estilo do btn, mas pode ser personalizado */
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}

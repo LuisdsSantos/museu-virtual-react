@@ -1,0 +1,6 @@
+/* Estilos globais ou para o container principal da aplicação */
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
