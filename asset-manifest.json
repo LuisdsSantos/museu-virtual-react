@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/museu-virtual-react/static/css/main.a720a205.css",
+    "main.js": "/museu-virtual-react/static/js/main.50759c1f.js",
+    "index.html": "/museu-virtual-react/index.html",
+    "main.a720a205.css.map": "/museu-virtual-react/static/css/main.a720a205.css.map",
+    "main.50759c1f.js.map": "/museu-virtual-react/static/js/main.50759c1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a720a205.css",
+    "static/js/main.50759c1f.js"
+  ]
+}
