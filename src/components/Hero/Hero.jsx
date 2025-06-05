@@ -3,11 +3,16 @@ import { FaPlay } from 'react-icons/fa';
 import './Hero.css';
 
 const Hero = () => {
+  const backgroundImage = `${process.env.PUBLIC_URL}/assets/images/arte-03.png`;
+
   return (
     <section 
       className="hero-section" 
       style={{ 
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('${process.env.PUBLIC_URL}/assets/images/arte-03.png')` 
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
       }}
     >
       <div className="hero-content">
@@ -23,5 +28,6 @@ const Hero = () => {
     </section>
   );
 };
+
 
 export default Hero;
