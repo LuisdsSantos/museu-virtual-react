@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/museu-virtual-react/static/css/main.a720a205.css",
-    "main.js": "/museu-virtual-react/static/js/main.d48d4726.js",
+    "main.css": "/museu-virtual-react/static/css/main.ad2a19be.css",
+    "main.js": "/museu-virtual-react/static/js/main.a5a024bb.js",
     "index.html": "/museu-virtual-react/index.html",
-    "main.a720a205.css.map": "/museu-virtual-react/static/css/main.a720a205.css.map",
-    "main.d48d4726.js.map": "/museu-virtual-react/static/js/main.d48d4726.js.map"
+    "main.ad2a19be.css.map": "/museu-virtual-react/static/css/main.ad2a19be.css.map",
+    "main.a5a024bb.js.map": "/museu-virtual-react/static/js/main.a5a024bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a720a205.css",
-    "static/js/main.d48d4726.js"
+    "static/css/main.ad2a19be.css",
+    "static/js/main.a5a024bb.js"
   ]
 }
