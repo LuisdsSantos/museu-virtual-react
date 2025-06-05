@@ -48,7 +48,7 @@ const Modal = ({ art, onClose, onPlayAudio }) => {
               </div>
             </div>
           </div>
-          <div className="related-audio">
+          {/* <div className="related-audio">
             <h3><FaHeadphones /> Áudio Relacionado</h3>
             <div className="audio-card-modal">
               <div className="audio-cover-modal">
@@ -65,7 +65,7 @@ const Modal = ({ art, onClose, onPlayAudio }) => {
                 </button>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
