@@ -1,10 +1,6 @@
 /* Hero Section */
 .hero-section {
 
-  background-size: cover; /* Garante que a imagem cubra toda a área */
-  background-position: center center; /* Centraliza a imagem */
-  background-repeat: no-repeat; 
-
   height: 70vh;
   display: flex;
   align-items: center;
